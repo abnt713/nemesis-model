@@ -1,0 +1,10 @@
+<phpunit bootstrap="./src/core/inc.php" verbose="true">
+    <testsuites>
+        <testsuite name="Nemesis Model Test Suite">
+            <directory suffix=".php">./tests</directory>
+        </testsuite>
+    </testsuites>
+    <logging>
+        <log type="coverage-html" target="./tests/coverage/"/>
+    </logging>
+</phpunit>
